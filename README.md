@@ -1,3 +1,38 @@
+# USM Perfumes
+
+A single-page perfume brand website for **USM**. It is one HTML file with no frameworks and no build step. Orders are sent to the seller through WhatsApp.
+
+## Features
+
+- Hero section with a CSS-drawn perfume bottle
+- Product collection with 4 perfumes (name, notes, price)
+- About section
+- Order form that opens WhatsApp with a ready-made message
+- Fully responsive (mobile and desktop)
+- Respects reduced-motion settings
+
+## How to run
+
+1. Copy the code from the section below into a file named `index.html`.
+2. Open the file in any browser.
+
+No installation needed.
+
+## Customize
+
+| What to change | Where |
+| --- | --- |
+| WhatsApp number | `var WA="923000000000"` in the script (start with `92`, no `+`) |
+| Footer number | The `<footer>` text |
+| Perfumes, notes, prices | The `items` array in the script |
+| Colors | The CSS variables in `:root` |
+
+## Code
+
+<details>
+<summary>Click to view index.html</summary>
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -129,3 +164,10 @@ document.getElementById("f").addEventListener("submit",function(e){
 </script>
 </body>
 </html>
+```
+
+</details>
+
+## License
+
+Free to use and modify for your own brand.
